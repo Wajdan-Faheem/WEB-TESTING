@@ -1,0 +1,23 @@
+h1{
+    color: orange;
+    background-color: aqua;
+    font-size: 40px;
+    text-decoration: line-through;
+    font-family: Arial;
+    text-align: center;
+}
+
+p{
+    color:brown;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    column-count: 2;
+    column-gap:60px;
+}
+ul{
+    /* Border Designs 
+    border-width: 4px;
+    border-style: solid;
+    border-color: red; */
+}
