@@ -1,0 +1,52 @@
+/* For every instance of the error class
+.error{
+    color:red;
+} */
+
+
+/* Only for p tags with the class error 
+p.error{
+color:red;
+}    */
+
+/* p.suck{
+    color:blueviolet;
+} */
+
+
+/* For instance of class suck and class feedback 
+p.suck.feedback{
+    border: 1px dashed black;
+} */
+
+
+/* Based off of id and not class, id = content for div only
+div#content{
+    background-color: aqua;
+    padding: 20px;
+}  */
+
+
+/* Decendant Selector, ie. For every p tag in a div tag! Start with parent space then child */
+/* div p{
+    color:yellow;
+}
+div .error{
+    color:aqua
+} */
+
+
+/* Attribute Selector */
+
+/* a[href="http://gmail.com"] {
+background-color: blueviolet;
+} */
+
+/* Anytihng with "gmail.com" */
+/* a[href*="gmail.com"] {
+    background-color: blueviolet;
+    } */
+
+    
+
+
