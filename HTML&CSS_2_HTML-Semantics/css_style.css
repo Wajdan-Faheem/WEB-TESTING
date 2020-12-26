@@ -1,0 +1,56 @@
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    top: 40%;
+    left:25%;
+    background-color: #FEB614;
+    color: white;
+    padding: 30px;
+} 
+
+.banner h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner h2 span{
+    font-size: 1.3em;
+}
+
+header{
+    z-index:1;
+    background-color:#F63232;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+   
+}
+
+header h1 {
+    display: inline-block;
+    color:white;
+    border: 6px solid white;
+    padding: 6px 12px;
+    border-radius: 30px;
+}
+
+nav{
+    background-color:#F4F4F4;
+    padding:20px;
+
+}
+nav ul{
+    white-space: nowrap;
+}
+nav li{
+    width: 25%; 
+    display: inline-block;
+    font-size: 24px;
+}
