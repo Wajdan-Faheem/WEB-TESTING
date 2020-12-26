@@ -47,6 +47,18 @@ background-color: blueviolet;
     background-color: blueviolet;
     } */
 
-    
+div {
+    color:aqua;
+    border: 1px solid black;
+    margin: 40px;
+    font-weight: bold;
+}
 
-
+p{
+    margin: inherit;
+    border: inherit;
+    color: chocolate;
+}
+p{
+    color: orange;
+}
