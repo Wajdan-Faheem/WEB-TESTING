@@ -157,3 +157,31 @@ form input:focus{
     outline: none;
 }
 
+form input:valid {
+    border: 2px solid green;
+}
+
+form input:invalid{
+    border: 2px solid red;
+}
+
+/* nav li:first-child{
+    border:3px #F63232 solid
+} */
+
+/* Psudeo Elements */
+article p::first-line{
+    font-weight: bold;
+}
+
+section.join-today p::first-letter{
+    font-size: 1.5em;
+}
+p::selection{
+    background-color: #F63232;
+    color:#F4F4F4;
+}
+
+p::after{
+    content: "...";
+}
