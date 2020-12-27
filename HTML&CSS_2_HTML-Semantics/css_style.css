@@ -169,7 +169,7 @@ form input:invalid{
     border:3px #F63232 solid
 } */
 
-/* Psudeo Elements */
+/* Pseudo Elements */
 article p::first-line{
     font-weight: bold;
 }
@@ -184,4 +184,11 @@ p::selection{
 
 p::after{
     content: "...";
+}
+
+/* Responsive Styles using media queries */
+@media screen and (max-width: 900px){
+    .banner .welcome h2{
+        font-size: 30px;
+    }
 }
