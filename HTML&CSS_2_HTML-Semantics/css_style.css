@@ -191,4 +191,26 @@ p::after{
     .banner .welcome h2{
         font-size: 30px;
     }
+    nav li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .banner .welcome h2{
+        font-size: 24px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px){
+    .banner .welcome {
+        position: relative; 
+        white-space: nowrap;
+        
+    }
+    .banner .welcome br{
+        display:none;
+    }
 }
